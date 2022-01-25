@@ -1,6 +1,7 @@
 # Text-Summarization
 Text Summarization using a LSTM Encoder-Decoder model with Attention
-
+☑️ Keywords: Python, DeepLearning,LSTM, NLP,Flask
+    
 ![image](https://user-images.githubusercontent.com/64171895/150996495-5f271586-58cd-4296-a28a-69a6ca8664fb.png )
 
 ## Understanding the Problem Statement
@@ -17,15 +18,15 @@ Our objective here is to generate a summary for the phone reviews using the abst
 ### Step 2: Cleaning the Data
 Performing basic pre-processing steps is very important before we get to the model building part. Using messy and uncleaned text data is a potentially disastrous move. So in this step, we will drop all the unwanted symbols, characters, etc. from the text that do not affect the objective of our problem.
 We will perform the below pre-processing tasks for our data:<br />
-•	Convert everything to lowercase.<br />
-•	Remove HTML tags.<br />
-•	Contraction mapping.<br />
-•	Remove (‘s).<br />
-•	Remove any text inside the parenthesis ( ).<br />
-•	Eliminate punctuations and special characters<br />
-•	Remove stop words.<br />
-•	Remove short words<br />
-
+ •	Convert everything to lowercase.<br />
+ •	Remove HTML tags.<br />
+ •	Contraction mapping.<br />
+ •	Remove (‘s).<br />
+ •	Remove any text inside the parenthesis ( ).<br />
+ •	Eliminate punctuations and special characters<br />
+ •	Remove stop words.<br />
+ •	Remove short words<br />
+   
 <img src="https://user-images.githubusercontent.com/64171895/150997096-5e6020f5-45ab-4980-b207-a6304675471e.png" alt="image" width="65%"/>
 
 <!-- ![image](https://user-images.githubusercontent.com/64171895/150997096-5e6020f5-45ab-4980-b207-a6304675471e.png)
